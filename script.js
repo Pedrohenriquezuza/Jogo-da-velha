@@ -9,8 +9,8 @@ let player = '';
 let warning = '';
 let playing = false;
 
+reset();
 
-reset()
 //Events
 document.querySelector('.reset').addEventListener('click', reset);
 
